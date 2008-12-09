@@ -1,0 +1,7 @@
+require 'rubygems'
+require 'optparse'
+require 'optparse/time'
+require 'ostruct'
+require 'fileutils'
+require 'ftools'
+require 'lame_adapter'
