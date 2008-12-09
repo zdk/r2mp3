@@ -1,0 +1,27 @@
+R2mp3 library:
+- Convert wma to mp3
+- Convert aac to mp3
+- Convert ra  to mp3
+
+Requirement:
+ lame_adapter (sudo gem install lame_adapter)
+ mplayer+lame (sudo apt-get install mplayer lame)
+
+
+Change log:
+15/10/2007  Pre-Alpha
+            - Should support simple convert to mp3
+            
+29/10/2007  Version 0.1.1
+            - Add bitrate setting
+            - Add mode setting
+            - Remove bitrate setting bug
+            - Change example
+            - Support MP3 to MP3
+            - MP3 inspector added based-on mp3-info
+
+#todo  - refactor 
+                       
+
+
+
