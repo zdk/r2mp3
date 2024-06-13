@@ -14,6 +14,7 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
+```
 require "r2mp3"
 
 converter = R2mp3::Converter.new(input_file: "./in.wav", output_file: "./out.mp3", bitrate: 320)
@@ -21,6 +22,8 @@ converter.run!
 
 mp3 = R2mp3::Inspector.new(file: "out.mp3")
 puts mp3.info
+
+```
 
 ## Contributing
 
